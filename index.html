@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tofunmi's Webpage</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-banner">
+        <h1>Jesutofunmi Oyeleke</h1>
+        <p>Computer Science Major at the University of Indianapolis</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#personal" class="tab-link">Personal</a></li>
+          <li><a href="#projects" class="tab-link">Projects</a></li>
+          <li><a href="#hobbies" class="tab-link">Hobbies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-banner">
+        <div>
+          <img src="./images/1724815682741.JPG" alt="" />
+          <div class="favorite-quote">
+            <h3>Favorite Quote</h3>
+            <p>“Stay hungry, stay foolish.”</p>
+            <p>– Steve Jobs</p>
+          </div>
+        </div>
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Jesutofunmi “Tofunmi” Oyeleke is a student at the University of
+            Indianapolis, pursuing a degree in Computer Science with a minor in
+            Mathematics as part of the class of 2026.
+          </p>
+          <p>
+            He is actively involved with the UIndy Speech Team and DesignSpine,
+            and has strong expertise in frontend, backend, and full-stack
+            development, along with experience in product management.
+          </p>
+          <p>
+            He is passionate about leadership, mentorship, and building
+            communities that empower students like himself to thrive.
+          </p>
+          <p>
+            Outside of academics and tech, he enjoys sports (with the exception
+            of baseball), especially playing tennis, running, and reading
+            biographies.
+          </p>
+        </div>
+      </section>
+      <section id="personal">
+        <h2>Personal Info</h2>
+        <div class="personal-container">
+          <div>
+            <h4>Expertise</h4>
+            <ul>
+              <li>Frontend Development</li>
+              <li>Backend Development</li>
+              <li>Full-Stack Development</li>
+              <li>Product Management</li>
+              <li>Project Management</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Skills</h4>
+            <ul>
+              <li>Leadership</li>
+              <li>Mentorship</li>
+              <li>Community Building</li>
+              <li>Public Speaking</li>
+              <li>Critical Thinking</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Prog. Languages</h4>
+            <ul>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" hidden>
+        <h2>Projects</h2>
+
+        <div class="project-item">
+          <h3>Experience Counter</h3>
+          <p>Click to increase your experience level</p>
+          <div class="project-1-content">
+            <h2 id="experience-counter">0</h2>
+            <button id="counter-btn" class="project-btn">Increase</button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <h3>Color Cycling</h3>
+          <p>Click to cycle through different colors</p>
+          <div>
+            <button id="color-cycle-btn" class="project-btn">
+              Change Color
+            </button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <h3>Text Revealer</h3>
+          <p>Reveal hidden messages</p>
+          <div>
+            <div id="secret-text" class="secret-message"></div>
+            <button id="reveal-btn" class="project-btn">Reveal Secret</button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <h3>Progress Loader</h3>
+          <p>Watch the progress bar animate to completion</p>
+          <div>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+              </div>
+              <span id="progress-text" class="progress-text">0%</span>
+            </div>
+            <button id="progress-btn" class="project-btn">
+              Start Progress
+            </button>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <h3>Quote Generator</h3>
+          <p>Get inspired with random quotes</p>
+          <div class="project-content">
+            <div class="quote-container">
+              <div id="quote-display" class="quote-text">
+                "Click for inspiration"
+              </div>
+              <div id="quote-author" class="quote-author">
+                - Ready to inspire you
+              </div>
+            </div>
+            <button id="quote-btn" class="project-btn">New Quote</button>
+          </div>
+        </div>
+      </section>
+      <section id="hobbies" hidden>
+        <h2>Hobbies & Interests</h2>
+        
+        <div class="hobby-item">
+          <h3>Tennis</h3>
+          <p>Regular player who enjoys the strategic and physical aspects of the game. Part of staying active and competitive.</p>
+        </div>
+        
+        <div class="hobby-item">
+          <h3>Running</h3>
+          <p>Consistent runner who values both the mental clarity and physical fitness benefits of regular cardio exercise.</p>
+        </div>
+        
+        <div class="hobby-item">
+          <h3>Reading Biographies</h3>
+          <p>Passionate about learning from successful individuals through their life stories and experiences. Focus on entrepreneurs and innovators.</p>
+        </div>
+        
+        <div class="hobby-item">
+          <h3>Speech & Debate</h3>
+          <p>Active member of UIndy Speech Team. Developing communication skills and confidence in public speaking.</p>
+        </div>
+        
+        <div class="hobby-item">
+          <h3>Technology Exploration</h3>
+          <p>Staying current with new programming languages, frameworks, and development tools. Continuous learning mindset.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Jesutofunmi Oyeleke. Built with HTML, CSS & JavaScript.</p>
+        <p>University of Indianapolis | Computer Science Major</p>
+      </div>
+    </footer>
+  </body>
+</html>
